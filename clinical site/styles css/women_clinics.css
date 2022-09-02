@@ -1,0 +1,218 @@
+/*1-style name and logo */
+#logo{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin: 2%;
+	position: left top;	
+
+}
+
+
+/*navigation1*/
+#all-nav{
+	float: left;
+	margin-left: 150px;
+	margin-top: -90px;
+
+}
+
+/*navigation1*/
+#nav1{
+	display: inline-block;
+	text-align: center;
+}
+
+/* unvisited link */
+.nav_a,.nav_a1{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+	font-size: 20px;
+
+}
+
+/* selected link */
+.nav_a:active{
+	color:#96281b ;
+}
+/* mouse over link */
+.nav_a:hover{
+	background: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+	border-radius: 3px;
+}
+
+
+/* selected link */
+.nav_a1:active{
+	color:#96281b ;
+}
+/* mouse over link */
+.nav_a1:hover{
+	background: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+	border-radius: 3px;
+}
+
+/*navigation2*/
+#nav2{
+	display: inline-block;
+	margin-left: 790px;
+	padding-left: 300px;
+	
+}
+
+
+/*the footer*/
+footer{
+	background-color: black;
+	height: 70px;
+}
+
+/*text for footer*/
+#text_footer{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+/*2-Background */
+#background{
+	width:1500px;
+	height:900px ;
+
+}
+
+/*3-About text*/
+#about{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* the linebreak */
+.linebreak{
+	height: 4px;
+	width: 300px;
+	background-color:gray;
+	margin-left:600px;
+	margin-top: -20px;
+	
+}
+/* the clinics*/
+/* the img clinics*/
+.clinics-img{
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	
+	
+}
+
+
+.div-img{
+	display: inline-block;
+	margin-left: 190px;
+	padding-top: 40px;
+	margin-bottom: 90px;
+}
+
+
+.div-text{
+	margin-left: 100px;
+}
+
+/* the text clinics*/
+.text_clinics{
+	display: inline-block;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+.div-table{
+	display: inline-block;
+	margin: 50px;
+	width: 40%;
+}
+
+
+.button{
+
+	height: 2rem;
+	width: 8rem;
+	color: #fff;
+	background-color: #035AA6;
+}
+
+.div-button{
+	margin-left: 90px;
+	padding-left: 220px;
+	margin-top: -70px;
+}
+
+/*the table and content*/
+table{
+	
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+
+.table{
+	display: none;
+	margin-left: 190px;
+	margin-bottom: 50px;
+	
+}
+
+
+
+.img_table{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-bottom: -1px;
+	padding-top: 10px;
+
+}
+
+
+
+
+.title_table{
+	display: inline-block;
+	font-size:12px ;
+	margin-left: 5px;
+	margin-top:10px ;
+	margin-bottom: -20px;
+	margin-right: 10px;
+
+
+}
+
+
+.text2{
+	text-align: left;
+	margin-left: 5px;
+	font-size: 11px;
+	margin-top:10px ;
+	margin-bottom: -50px;
+}
+
+
+.book{
+	margin-top: 3px;
+	height: 2rem;
+	width: 8rem;
+	color: #fff;
+	background-color: #035AA6;
+}
+
+
+
+
+

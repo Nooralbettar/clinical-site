@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eye Clinics</title></head>
+	<link rel="stylesheet" type="text/css" href="../styles css/eye_clinics.css">
+	<script src="../js/sweetalert.min.js"></script>
+<body>
+	
+	<!--logo image-->
+	<div><img id="logo" src="../photo/logo.jpg" width="70px" height="70px"></div>
+	<!--the navigation-->
+	<nav>
+		<a id="nav1" class="nav_a"   href="../index.html">Home</a>
+		<!--the last navigation-->
+		<div id="nav2">
+			<a class="nav_a1" href="login.html">Login</a>
+			<a class="nav_a1" href="register.html">Register</a>
+		</div>
+
+	</nav>
+
+	<!-- the image background-->
+	<div><img id="background" src="../photo/eye_1.jpg"></div>
+
+	<!--the title-->
+	<div><p id="about">Eye clinics</p></div>
+	<div class="linebreak"></div>
+	
+
+	<!--the first clinc-->
+	<!--the first image-->
+<div class="div-table">
+	<div class="div-img">
+	<div><img class="clinics-img" src="../photo/eye2.jpg"></div>
+	<!--the first title-->
+	<div class="div-text"><p id="text1" class="text_clinics">vision test</p></div>
+	</div>
+
+
+	<!--the table-->
+	
+	<div id="table1" class="table">
+	<table border="3px">
+		<tr>
+			<td>
+				<img class="img_table" src="../photo/doctor_table.png">
+				<p class="title_table">Doctor Name</p>
+			</td>
+			<td>
+				<p class="text2">Dr.lama mohammed</p>
+			</td>
+		</tr>
+
+		<tr>
+			<td><img class="img_table" src="../photo/clock.png">
+			<p  class="title_table">Work Time</p></td>
+			<td><p class="text2">saturay --10.30Am to 5.00Pm</p></td>
+		</tr>
+		<tr>
+			<td>
+				<img class="img_table" src="../photo/treatmentfee.png">
+				<p class="title_table">Treatment fee</p>
+			</td>
+			<td><p class="text2">40$</p></td>
+		</tr>
+	</table>
+	<!--the buttom for book-->
+	<button class="book" id="book" onclick="book('book');">Book A Session</button></div>
+	<br><br>
+	<!--the more detailes-->
+	<div class="div-button"><button class="button" id="btn" class="button"  onclick="toggle_visibility('table1','btn')">More Detailes</button></div></div>
+	 
+
+
+
+	<!--the 2 clinc-->
+	<!--the 2 image-->
+	<div class="div-table">
+	<div class="div-img">
+	<div><img class="clinics-img" src="../photo/eye3.jpg"></div>
+	<!--the 2title-->
+	<div class="div-text"><p id="text_2" class="text_clinics">Eye surgeries</p></div>
+
+	</div>
+
+	<!--the table-->
+	<div id="table2" class="table">
+	<table border="3px">
+		<tr>
+			<td>
+				<img class="img_table" src="../photo/doctor_table.png">
+				<p class="title_table">Doctor Name</p>
+			</td>
+			<td>
+				<p class="text2">Dr.saja mohammed</p>
+			</td>
+		</tr>
+
+		<tr>
+			<td><img class="img_table" src="../photo/clock.png">
+			<p  class="title_table">Work Time</p></td>
+			<td><p class="text2">Monday --12.00Am to 3.00Pm</p></td>
+		</tr>
+		<tr>
+			<td>
+				<img class="img_table" src="../photo/treatmentfee.png">
+				<p class="title_table">Treatment fee</p>
+			</td>
+			<td><p class="text2">100$</p></td>
+		</tr>
+	</table>
+	<!--the buttom for book-->
+	<button class="book" id="book2" onclick="book('book2');">Book A Session</button></div>
+	<br><br>
+		<!--the more detailes-->
+	<div class="div-button"><button id="btn2" class="button" onclick="toggle('table2','btn2')">More Detailes</button></div></div>
+	 
+	<script src="../js/eye.js"></script>
+
+</body>
+<footer>
+	<p id="text_footer">&copy;copyright @ Noor Al_bittar 220200485</p></footer>
+</html>
